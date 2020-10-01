@@ -1,5 +1,5 @@
 <?php
-    include('header.php');
+    include('../../header.php');
  ?>
 <!-- registration page -------------------------------------->
 
@@ -206,5 +206,5 @@ function() {
 </script>
 
 <?php
-  include('footer.php');
+  include('../../footer.php');
   ?>

@@ -1,6 +1,6 @@
 <?php
-   include('header.php');
-   include('connection.php');
+   include('../../header.php');
+   include('../connection.php');
  ?>
 <!-- data retrieve php file -->
 
@@ -63,7 +63,7 @@
             <td><?php echo $row['comment'];?></td>
             <td><?php echo $row['date_time'];?></td>
             <td><a href="update.php?id=<?php echo $row['id'];?>"><button type="button" name="edit" class="btn btn-info">Edit</button></a></td>
-            <td><a href="delete.php?id=<?php echo $row['id'];?>"><button type="button" name="delete" class="btn btn-danger">Delete</button></a></td>
+            <td><a href="../delete.php?id=<?php echo $row['id'];?>"><button type="button" name="delete" class="btn btn-danger">Delete</button></a></td>
           </tr>
           <?php
 
@@ -75,5 +75,5 @@
     </div>
 
 <?php
-    include('footer.php')
+    include('../../footer.php')
   ?>

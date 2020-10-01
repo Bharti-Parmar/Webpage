@@ -1,7 +1,7 @@
 <!-- header and connection file include -->
 <?php
-	  include('header.php');
-		include('connection.php');
+	  include('../../header.php');
+		include('../connection.php');
 ?>
 
 								<!--- edit page ---------------------------------------------->
@@ -59,7 +59,7 @@
 					</div>
 	<!-- submit form -->
 					<center>
-					  <a href="edit.php?id=<?php echo $row['id'];?>"><button type="submit" class="btn btn-primary" name="update" style="margin-bottom:40px;">Update</button></a>
+					  <a href="../edit.php?id=<?php echo $row['id'];?>"><button type="submit" class="btn btn-primary" name="update" style="margin-bottom:40px;">Update</button></a>
 					 </center>
 				</form>
 		</div>
@@ -68,5 +68,5 @@
 </body>
 
 
-<?php include('footer.php');
+<?php include('../../footer.php');
 ?>

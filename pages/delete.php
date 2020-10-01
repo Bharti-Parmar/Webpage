@@ -6,6 +6,6 @@ require('connection.php');
      if(!empty($_GET['id'])){
       $query="DELETE FROM table1 WHERE id= '".$_GET['id']."'";
 			$result = mysqli_query($conn,$query);
-			header("Location: update-page.php?delete=true");
+			header("Location: update/update-page.php?delete=true");
      }
  ?>

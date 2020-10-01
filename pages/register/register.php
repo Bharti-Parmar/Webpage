@@ -1,5 +1,5 @@
  <?php
-    include('connection.php');
+    include('../connection.php');
   ?>
 <!-- data registration php file -->
   <?php
@@ -23,5 +23,5 @@
   ?>
 
   <?php
-     include('footer.php');
+     include('../../footer.php');
    ?>

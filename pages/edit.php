@@ -18,7 +18,7 @@
 	echo	$query="UPDATE table1 SET f_name='".$f_name."',l_name='".$l_name."',email='".$email."',contact='".$contact."',s_address='".$s_address."',DOB='".$DOB."',comment='".$comment."',date_time='".$date."' WHERE id='".$id."'"; //exit;
 
 		mysqli_query($conn,$query);
-		header('location:update-page.php?update=true');
+		header('location:update/update-page.php?update=true');
 
 	}
 ?>
